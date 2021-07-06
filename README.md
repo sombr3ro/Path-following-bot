@@ -4,6 +4,8 @@ ROS package for a path following bot. Contains a map with different colored path
 
 The scripts initialize nodes that subscribe raw_image data, processes it to spit out a direction to move towards, and then publishes velocity output to cmd_vel topic to move the bot in the calculated direction
 
+![Course](Course.png)
+
 **Scripts/**
 
         - follower_blue.py: Follows the common path and diverts into the blue path.
