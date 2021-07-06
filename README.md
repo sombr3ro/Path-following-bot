@@ -4,7 +4,7 @@ ROS package for a path following bot. Contains a map with different colored path
 
 The scripts initialize nodes that subscribe raw_image data, processes it to spit out a direction to move towards, and then publishes velocity output to cmd_vel topic to move the bot in the calculated direction
 
-![Course](course.png){height=50% width=50%}
+<img src="course.png" width="200" height="200" />
 
 **Scripts/**
 
